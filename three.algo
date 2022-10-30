@@ -1,0 +1,14 @@
+ALGORITHM three
+VAR
+    c:CHAR;
+    ch:STRING:="";
+    nw: INTEGER:=1;
+    len,nv: INTEGER:=0;
+BEGIN
+    REPEAT
+        Read(c);
+        ch:=ch+c;
+        len:=len+1;
+    
+UNTIL ( c ="." )
+END
